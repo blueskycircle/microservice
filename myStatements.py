@@ -1,4 +1,4 @@
-my_list = ["apple", "cherry", "lemon", "pear"]
+my_list = ["apple", "cherry", "lemon", "pear", "melon"]
 my_dict = {"drink": "coffee", "milk": "whole"}
 
 for item in my_list:
