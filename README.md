@@ -8,7 +8,7 @@ Something like this
 
 ```bash
 curl -X 'POST' \
-  'http://127.0.0.1:8000/wiki' \
+  'http://localhost:8000/wiki' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -23,3 +23,7 @@ curl -X 'POST' \
 `docker run -p 8080:8080 my-microservice`
 
 Then go to http://localhost:8080/
+
+### Invoke POST request
+
+run `invoke.sh`
