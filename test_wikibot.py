@@ -9,6 +9,6 @@ def test_scrape():
 
 def test_wikibot():
     runner = CliRunner()
-    result = runner.invoke(cli, ["--name", "Microsoft", "--length", 1])
+    result = runner.invoke(cli, ["--name", "Microsoft"])
     assert result.exit_code == 0
     assert "Microsoft" in result.output

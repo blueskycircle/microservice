@@ -4,9 +4,8 @@ from mylib.bot import scrape
 
 @click.command()
 @click.option("--name", help="Web page we want to scrape")
-@click.option("--length", help="length of the output from wikipedia")
-def cli(name, length):
-    result = scrape(name, length)
+def cli(name):
+    result = scrape(name)
     click.echo(click.style(f"{result}:", bg="blue", fg="white"))
 
 
