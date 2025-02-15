@@ -15,3 +15,9 @@ curl -X 'POST' \
   "name": "Arsenal"
 }'
 ```
+
+
+### Build container 
+
+`docker build .`
+`docker image ls`
