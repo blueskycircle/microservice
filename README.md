@@ -19,5 +19,7 @@ curl -X 'POST' \
 
 ### Build container 
 
-`docker build .`
-`docker image ls`
+`docker build -t my-microservice .`
+`docker run -p 8080:8080 my-microservice`
+
+Then go to http://localhost:8080/
